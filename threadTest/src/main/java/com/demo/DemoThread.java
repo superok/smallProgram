@@ -5,10 +5,10 @@ public class DemoThread extends Thread {
 
 	public DemoThread(int i) {
 		threadIndex = i;
+		System.out.println(threadIndex + " thread start" );		
 	}
 
 	public void run() {
-		System.out.println(threadIndex + " thread start" );
 		for(int i =1;i<50000;i++) {}
 		while(ThreadApplication.threadCount < 100) {
 			try {
