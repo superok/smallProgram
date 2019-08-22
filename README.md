@@ -14,3 +14,10 @@ Plenty of small programs
 2. Initial Image position and size to the painting on second monitor.
 3. Resize the image when scrolling, and change the focus on center.
 4. Scrolling up will resume the Image.
+
+# GmailAutoPurge 
+It will auto purge the emails in filterLabels array if they were received 15 days ago
+Google Script, you may refer the installation guide here.
+You may change:
+1. filterLables: the tag in Gmail
+2. filterAfterDays: how many days you want to delete the emails after received, default 15 days.
