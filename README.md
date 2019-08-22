@@ -17,7 +17,8 @@ Plenty of small programs
 
 # GmailAutoPurge 
 It will auto purge the emails in filterLabels array if they were received 15 days ago
-Google Script, you may refer the installation guide here.
+Google Script, you may refer the installation guide here. https://developers.google.com/apps-script/guides/standalone
+The script will be executed everyday after you run install function(1 time/day). If you want to test it, you may manually run autoPurge.
 You may change:
 1. filterLables: the tag in Gmail
 2. filterAfterDays: how many days you want to delete the emails after received, default 15 days.
